@@ -8,22 +8,7 @@ html, body {
     height: 100%;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    justify-content: center;
-}
-
-.footer__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    border-top: 2px solid #0a0ccc;
-    position: relative;
-}
+/* Slider */
 
 .slide {
     display: flex;
@@ -92,6 +77,8 @@ html, body {
 
 .slide { display: none}
 
+/* Обращение по ID нужно для переключения картинок */
+
 #slide1:checked ~ .buttons .slider-label1,
 #slide1:checked ~ .buttons .slider-label2,
 #slide1:checked ~ .buttons .slider-label3,
@@ -112,3 +99,28 @@ html, body {
 #slide4:checked ~ .buttons .slider-label1 {
     display: flex;
 }
+
+/* Slider END */
+
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-top: 2px solid #0a0ccc;
+    position: relative;
+}
+
+/* Footer END*/
+

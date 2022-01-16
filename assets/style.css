@@ -126,13 +126,17 @@ a {
 .info {
     display: flex;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 
     padding: 25px;
 
     border: 1px solid #2121ff;
 
     border-radius: 10px;
+}
+
+.info__title {
+    display: none;
 }
 
 .info__img {
