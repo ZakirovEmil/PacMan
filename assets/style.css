@@ -225,6 +225,10 @@ a {
         max-width: 970px;
     }
 
+    .footer__wrapper-img {
+        display: none;
+    }
+
 /*  Header  */
 
     .logo {
@@ -266,8 +270,11 @@ a {
         flex-direction: column;
     }
 
-    .history__content {
+    .history {
         padding: 15px;
+    }
+
+    .history__content {
         font-size: 20px;
     }
 
@@ -297,5 +304,19 @@ a {
     .search__input {
         padding: 5px;
         width: 100px;
+    }
+}
+
+@media (max-width: 445px) {
+    .main__heading {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .heading {
+        display: none;
+    }
+    .logo {
+        display: none;
     }
 }
